@@ -4,7 +4,7 @@ This theme is adapted from PyTorch Sphinx Theme, with more configurations allowe
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/easyfl-ai/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
