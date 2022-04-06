@@ -20,7 +20,7 @@ copybutton_prompt_is_regexp = True
 ```
 
 ### Header Logo
-The header logo is OpenMMLab by default. Each repo should customize the logo by overriding the provided css class.
+The header logo is EasyFL by default. Each repo should customize the logo by overriding the provided css class.
 
 We suggest putting all the html resources to `docs/_static`. First put the logo
 to `docs/_static/images/logo.png`, then write the following snippet to 
@@ -55,7 +55,7 @@ html_theme_options = {
         # A link
         {
             'name': 'GitHub',
-            'url': 'https://github.com/open-mmlab/'
+            'url': 'https://github.com/EasyFL-AI/'
         }, 
         # A dropdown menu
         {
@@ -63,14 +63,14 @@ html_theme_options = {
             'children': [
                 # A vanilla dropdown item
                 {
-                    'name': 'MMCV',
-                    'url': 'https://github.com/open-mmlab/mmcv',
+                    'name': 'Project1',
+                    'url': 'url',
                 },
                 # A dropdown item with a description
                 {
-                    'name': 'MMDetection',
-                    'url': 'https://github.com/open-mmlab/mmdetection',
-                    'description': 'Object detection toolbox and benchmark'
+                    'name': 'Project2',
+                    'url': 'url',
+                    'description': 'Descriptions'
                 },
             ], 
             # Optional, determining whether this dropdown menu will always be
@@ -78,8 +78,8 @@ html_theme_options = {
             'active': True,
         },
     ],
-    # For shared menu: If your project is a part of OpenMMLab's project and 
-    # you would like to append Docs and OpenMMLab section to the right
+    # For shared menu: If your project is a part of EasyFL's project and 
+    # you would like to append Docs and EasyFL section to the right
     # of the menu, you can specify menu_lang to choose the language of
     # shared contents. Available options are 'en' and 'cn'. Any other
     # strings will fall back to 'en'.
