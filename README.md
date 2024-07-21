@@ -4,7 +4,7 @@ This theme is adapted from PyTorch Sphinx Theme, with more configurations allowe
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/easyfl-ai/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/weimingwill/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
@@ -20,7 +20,7 @@ copybutton_prompt_is_regexp = True
 ```
 
 ### Header Logo
-The header logo is EasyFL by default. Each repo should customize the logo by overriding the provided css class.
+The header logo is COALA by default. Each repo should customize the logo by overriding the provided css class.
 
 We suggest putting all the html resources to `docs/_static`. First put the logo
 to `docs/_static/images/logo.png`, then write the following snippet to 
@@ -55,7 +55,7 @@ html_theme_options = {
         # A link
         {
             'name': 'GitHub',
-            'url': 'https://github.com/EasyFL-AI/'
+            'url': 'https://github.com/SonyResearch/'
         }, 
         # A dropdown menu
         {
@@ -78,8 +78,8 @@ html_theme_options = {
             'active': True,
         },
     ],
-    # For shared menu: If your project is a part of EasyFL's project and 
-    # you would like to append Docs and EasyFL section to the right
+    # For shared menu: If your project is a part of COALA's project and 
+    # you would like to append Docs and COALA section to the right
     # of the menu, you can specify menu_lang to choose the language of
     # shared contents. Available options are 'en' and 'cn'. Any other
     # strings will fall back to 'en'.
